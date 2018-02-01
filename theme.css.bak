@@ -9,7 +9,7 @@
 /**
  * Input
  */
-@define-color selected_bg_color #555753;
+@define-color selected_bg_color #7EAE55;
 @define-color selected_fg_color #FFFFFF;
 @define-color input_color #FFFFFF;
 @define-color caret_color darker(@input_color);
@@ -19,12 +19,12 @@
  */
 @define-color item_name #FFFFFF;
 @define-color item_text #999;
-@define-color item_box_selected #8FA876;
-@define-color item_text_selected #383838;
+@define-color item_box_selected #7EAE55;
+@define-color item_text_selected #C9FF95;
 @define-color item_name_selected #FFFFFF;
 @define-color item_shortcut_color #777;
 @define-color item_shortcut_shadow darker(@bg_color);
-@define-color item_shortcut_color_sel #2E3436;
+@define-color item_shortcut_color_sel #C9FF95;
 @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
 .app {
